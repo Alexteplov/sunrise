@@ -4,5 +4,9 @@ class Day {
   final DateTime solarNoon;
   final int dayLength;
 
-  Day(this.sunrise, this.sunset, this.solarNoon, this.dayLength);
+  Day(
+      {required this.sunrise,
+      required this.sunset,
+      required this.solarNoon,
+      required this.dayLength});
 }
