@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sunrise/generated/l10n.dart';
 import 'package:sunrise/presentation/widgets/app_bar_widget.dart';
 
 class HomeScreen extends StatefulWidget {
