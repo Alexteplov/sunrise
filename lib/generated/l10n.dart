@@ -59,6 +59,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Get data`
+  String get buttonName {
+    return Intl.message(
+      'Get data',
+      name: 'buttonName',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

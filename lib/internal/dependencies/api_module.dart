@@ -4,5 +4,5 @@ import 'package:sunrise/data/api/service/sunrise_service.dart';
 class ApiModule {
   static final ApiUtil _apiUtil = ApiUtil(SunriseService());
 
-  static ApiUtil apiUtil() => _apiUtil;
+  static ApiUtil get apiUtil => _apiUtil;
 }
