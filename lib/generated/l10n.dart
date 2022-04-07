@@ -69,6 +69,26 @@ class S {
       args: [],
     );
   }
+
+  /// `latitude`
+  String get latitude {
+    return Intl.message(
+      'latitude',
+      name: 'latitude',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `longitude`
+  String get longitude {
+    return Intl.message(
+      'longitude',
+      name: 'longitude',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

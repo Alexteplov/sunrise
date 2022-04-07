@@ -1,4 +1,6 @@
 {
     "appBarTitle": "Sunrise",
-    "buttonName": "Get data"
+    "buttonName": "Get data",
+    "latitude": "latitude",
+    "longitude": "longitude"
 }
