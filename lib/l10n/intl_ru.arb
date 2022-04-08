@@ -1,4 +1,6 @@
 {
     "appBarTitle": "Восход солнца",
-    "buttonName": "Получить данные"
+    "buttonName": "Получить данные",
+    "latitude": "широта",
+    "longitude": "долгота"
 }
